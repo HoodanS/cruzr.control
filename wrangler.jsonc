@@ -1,0 +1,13 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "cruzr-control",
+  "main": "src/index.js",
+  "compatibility_date": "2026-11-01",
+  "assets": {
+    "directory": "./public",
+    "run_worker_first": ["/chat"]
+  },
+  "vars": {
+    "MODEL": "gemini-3.8-flash"
+  }
+}
